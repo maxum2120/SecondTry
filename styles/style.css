@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+body {
+	font-family: 'Heebo', sans-serif;
+}
+
+.inform {
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-gap: 100px;
+	padding: 0 150px;
+	color: #21243D;
+}
+
+.text-inform {
+	width: 500px;
+	height: 200px;
+}
+
+.photo {
+	width: 243px;
+	height: 243px;
+	border-radius: 50%;
+}
+
+.inform-button {
+	background: #FF6464;
+	color: #fff;
+	padding: 5px 15px 5px;
+}
