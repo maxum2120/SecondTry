@@ -3,7 +3,7 @@ body {
 	font-family: 'Heebo', sans-serif; 
 }
 
-.inform {
+.info {
 	grid-template-columns: 1fr 1fr;
 	display: grid;
 	grid-gap: 100px;
@@ -11,7 +11,7 @@ body {
 	color: #21243D;
 }
 
-.text-inform {
+.text_info {
 	width: 500px;
 	height: 200px;
 }
@@ -22,7 +22,7 @@ body {
 	border-radius: 50%;
 }
 
-.inform-button {
+.info_button {
 	background: #FF6464;
 	color: #fff;
 	padding: 5px 15px 5px;
