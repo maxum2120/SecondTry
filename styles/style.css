@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+/* відступ пропустив */
 *{
 	box-sizing: border-box;
 }
@@ -36,6 +37,7 @@ body {
 	border-radius: 2px;
 	border: 0;
 }
+/* відступи між стилями */
 .post__desk{
 	background: #EDF7FA;
 	display: grid;
@@ -49,6 +51,7 @@ body {
 	text-align: right;
 	margin: 25px 10px 0 0;
 }
+/* форматування пізда */
 .post{
 	background: #fff;
 margin: 5px 10px;
