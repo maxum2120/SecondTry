@@ -1,20 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
-/* відступ пропустив */
-*{
+* {
 	box-sizing: border-box;
+}
+.container-wide {
+	max-width: 1024px;
+    margin: 0 auto;
+}
+.nav {
+	text-align: right;
+	margin-bottom: 50px;
+}
+.nav__link {
+    text-decoration: none;
+	color: #000;	
+}
+
+.nav__link:visited {
+	color: #000;
+
+}
+.nav__link:hover{
+	text-decoration: underline;
 }
 body {
 	font-family: 'Heebo', sans-serif;
+}
+
+.container {
 	max-width: 808px;
-	margin: 0 auto;
-	
+	margin: 0 auto 50px;
 }
 
 .info {
-	display: flex;
-	flex-direction: row;
 	color: #21243D;
 }
+.info__wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
 .info__photo {
 	display: inline-block;
 	height: 250px;
@@ -37,32 +61,95 @@ body {
 	border-radius: 2px;
 	border: 0;
 }
-/* відступи між стилями */
-.post__desk{
-	background: #EDF7FA;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	margin-top: 50px;
-	padding-bottom: 10px;
+
+.posts__wrapper {
+ padding-bottom: 20px;
 }
+
+.posts__recent {
+	background: #EDF7FA;
+}
+
+.posts__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .post__link {
 	color: #00A8CC;
 	text-decoration: none;
-	text-align: right;
-	margin: 25px 10px 0 0;
 }
-/* форматування пізда */
-.post{
+
+.posts__discription {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.post {
 	background: #fff;
-margin: 5px 10px;
-padding: 0 15px;
-border-radius: 4px;
-box-shadow: 0px 2px 5px
-}
-.post__content{
+	padding: 0 15px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 5px;
 	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 0;
-	width: 100%;
+}
+
+.works__wrapper {
+	color: #21243D;
+}
+
+.title {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.works__option {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #E0E0E0;
+	margin-bottom: 20px;
+}
+
+.works__img {
+	display: inline-block;
+	height: 180px;
+	width: 250px;
+	margin: 0 50px;
+	border-radius: 6px;
+	overflow: hidden;
+	
+}
+
+.works__photo {
 	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+.works__title{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.works__mark {
+	display: flex;
+	flex-flow: nowrap;
+	margin-bottom: 15px;
+}
+
+.works__mark__data {
+	color: #fff;
+	background: #142850;
+	border-radius: 16px;
+	font-size: 15px;
+	min-width: 50px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.works__mark__title {
+	color: #8695A4;
 }
