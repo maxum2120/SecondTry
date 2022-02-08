@@ -97,6 +97,9 @@ body {
 
 .works__wrapper {
 	color: #21243D;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .title {
@@ -116,7 +119,6 @@ body {
 	display: inline-block;
 	height: 180px;
 	width: 250px;
-	margin: 0 50px;
 	border-radius: 6px;
 	overflow: hidden;
 	
@@ -152,4 +154,17 @@ body {
 
 .works__mark__title {
 	color: #8695A4;
+}
+
+.footer__content {
+	color: #21243D;
+	text-align: center;
+}
+
+.footer__icon {
+	font-size: 50px;
+}
+
+.fooret__text {
+	font-size: 16px;
 }
