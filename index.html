@@ -2,22 +2,27 @@
 <html>
    <head>
       <link rel="stylesheet" href="styles/style.css">
-      <script src="https://kit.fontawesome.com/e4b408f2c1.js" crossorigin="anonymous"></script>
    </head>
    <body>
       <div>
          <header>
             <div class="container-wide">
-               <nav class="nav">
-                  <a href="#" class="nav__link">Works</a>
-                  <a href="#" class="nav__link">Posts</a>
-                  <a href="#" class="nav__link">Info</a>
-               </nav>
+               <ul class="nav">
+                  <li><a href="#" class="nav__link">Works</a></li>
+                  <li><a href="#" class="nav__link">Posts</a></li>
+                  <li><a href="#" class="nav__link">Info</a></li>
+               </ul>
+               <div class="nav__mobile">
+                  <div class="nav__line"></div>
+                  <div class="nav__line"></div>
+                  <div class="nav__line"></div>
+               </div>
             </div>
          </header>
          <main>
             <div class="info">
                <div class="container info__wrapper">
+                  
                   <div class="info__text">
                      <h1>Hi, I am John, Creative Technologist </h1>
                      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p>
@@ -78,58 +83,58 @@
                      Featured works  
                   </div>
                   <div class="works__option-list">
-                  <div class="works__option">
-                     <div class="works__img">
-                        <img src="./img/computer_guy.jpg" alt="funny img" class="works__photo"  >
+                     <div class="works__option">
+                        <div class="works__img">
+                           <img src="./img/computer_guy.jpg" alt="funny img" class="works__photo"  >
+                        </div>
+                        <div class="works__content">
+                           <div class="works__title"> Designing Dashboards
+                           </div>
+                           <div class="works__mark">
+                              <div class="works__mark-data" >2020</div>
+                              <div class="works__mark-title">Dashboard</div>
+                           </div>
+                           <div class="works__text">Amet minim mollit non deserunt ullamco est sit 
+                              aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                              Exercitation veniam consequat sunt nostrud amet.
+                           </div>
+                        </div>
                      </div>
-                     <div class="works__content">
-                        <div class="works__title"> Designing Dashboards
+                     <div class="works__option works">
+                        <div class="works__img">
+                           <img src="./img/computer_guy.jpg" alt="funny img" class="works__photo"  >
                         </div>
-                        <div class="works__mark">
-                           <div class="works__mark-data" >2020</div>
-                           <div class="works__mark-title">Dashboard</div>
+                        <div class="works__content">
+                           <div class="works__title"> Designing Dashboards
+                           </div>
+                           <div class="works__mark">
+                              <div class="works__mark-data" >2020</div>
+                              <div class="works__mark-title">Dashboard</div>
+                           </div>
+                           <div class="works__text">Amet minim mollit non deserunt ullamco est sit 
+                              aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                              Exercitation veniam consequat sunt nostrud amet.
+                           </div>
                         </div>
-                        <div class="works__text">Amet minim mollit non deserunt ullamco est sit 
-                           aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
-                           Exercitation veniam consequat sunt nostrud amet.
+                     </div>
+                     <div class="works__option works">
+                        <div class="works__img">
+                           <img src="./img/computer_guy.jpg" alt="funny img" class="works__photo"  >
+                        </div>
+                        <div class="works__content">
+                           <div class="works__title"> Designing Dashboards
+                           </div>
+                           <div class="works__mark">
+                              <div class="works__mark-data" >2020</div>
+                              <div class="works__mark-title">Dashboard</div>
+                           </div>
+                           <div class="works__text">Amet minim mollit non deserunt ullamco est sit 
+                              aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                              Exercitation veniam consequat sunt nostrud amet.
+                           </div>
                         </div>
                      </div>
                   </div>
-                  <div class="works__option">
-                     <div class="works__img">
-                        <img src="./img/computer_guy.jpg" alt="funny img" class="works__photo"  >
-                     </div>
-                     <div class="works__content">
-                        <div class="works__title"> Designing Dashboards
-                        </div>
-                        <div class="works__mark">
-                           <div class="works__mark-data" >2020</div>
-                           <div class="works__mark-title">Dashboard</div>
-                        </div>
-                        <div class="works__text">Amet minim mollit non deserunt ullamco est sit 
-                           aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
-                           Exercitation veniam consequat sunt nostrud amet.
-                        </div>
-                     </div>
-                  </div>
-                  <div class="works__option">
-                     <div class="works__img">
-                        <img src="./img/computer_guy.jpg" alt="funny img" class="works__photo"  >
-                     </div>
-                     <div class="works__content">
-                        <div class="works__title"> Designing Dashboards
-                        </div>
-                        <div class="works__mark">
-                           <div class="works__mark-data" >2022</div>
-                           <div class="works__mark-title">Dashboard</div>
-                        </div>
-                        <div class="works__text">Amet minim mollit non deserunt ullamco est sit 
-                           aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
-                           Exercitation veniam consequat sunt nostrud amet.
-                        </div>
-                     </div>
-                  </div>
-               </div>   
                </div>
             </div>
       </div>
@@ -141,13 +146,13 @@
                <i class="fas fa-poo"></i>
                <i class="fas fa-jedi"></i>
                <i class="fas fa-flushed"></i>
-
             </div>
-         <div class="fooret__text">
-            Copyright ©2020 All rights reserved
-         </div> 
+            <div class="fooret__text">
+               Copyright ©2020 All rights reserved
+            </div>
          </div>
       </footer>
       </div>
+      <script src="https://kit.fontawesome.com/e4b408f2c1.js" crossorigin="anonymous"></script> 
    </body>
 </html>
